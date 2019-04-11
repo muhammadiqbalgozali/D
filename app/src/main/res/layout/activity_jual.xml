@@ -1,0 +1,722 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.haekalsfurniture.JualActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="21dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.45"
+                android:gravity="fill"
+                android:text="Espresso" />
+
+            <EditText
+                android:id="@+id/et_kursi_ergotec_842"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.15"
+                android:digits="0123456789."
+                android:gravity="center_horizontal"
+                android:hint="qty"
+                android:inputType="number"
+
+                android:textColor="@color/colorET">
+
+            </EditText>
+
+            <TextView
+                android:id="@+id/tv_kursi_ergotec_842"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="8dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="2dp"
+                android:layout_weight="0.45"
+                android:gravity="center"
+                android:text=" Total : Rp. 0 ,-"
+                android:textSize="18sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.45"
+                android:gravity="fill"
+                android:text="Americano" />
+
+            <EditText
+                android:id="@+id/et_kursi_ergotec_838"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.15"
+                android:digits="0123456789."
+                android:gravity="center_horizontal"
+                android:hint="qty"
+                android:inputType="number"
+                android:textColor="@color/colorET">
+
+            </EditText>
+
+            <TextView
+                android:id="@+id/tv_kursi_ergotec_838"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="8dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="2dp"
+                android:layout_weight="0.45"
+                android:gravity="center"
+                android:text=" Total : Rp. 0 ,-"
+                android:textSize="18sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.45"
+                android:gravity="fill"
+                android:text="Picollo" />
+
+            <EditText
+                android:id="@+id/et_kursi_donati_avasys"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.15"
+                android:digits="0123456789."
+                android:gravity="center_horizontal"
+                android:hint="qty"
+                android:inputType="number"
+                android:textColor="@color/colorET">
+
+            </EditText>
+
+            <TextView
+
+                android:id="@+id/tv_kursi_donati_avasys"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="8dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="2dp"
+                android:layout_weight="0.45"
+                android:gravity="center"
+                android:text=" Total : Rp. 0 ,-"
+                android:textSize="18sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.45"
+                android:gravity="fill"
+                android:text="Single origin" />
+
+            <EditText
+                android:id="@+id/et_kursi_donati_bose2"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.15"
+                android:digits="0123456789."
+                android:gravity="center_horizontal"
+                android:hint="qty"
+                android:inputType="number"
+                android:textColor="@color/colorET">
+
+            </EditText>
+
+            <TextView
+                android:id="@+id/tv_kursi_donati_bose2"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="8dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="2dp"
+                android:layout_weight="0.45"
+                android:gravity="center"
+                android:text=" Total : Rp. 0 ,-"
+                android:textSize="18sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.45"
+                android:gravity="fill"
+                android:text="Cappucino" />
+
+            <EditText
+                android:id="@+id/et_kursi_donati_carlo2n"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.15"
+                android:digits="0123456789."
+                android:gravity="center_horizontal"
+                android:hint="qty"
+                android:inputType="number"
+                android:textColor="@color/colorET">
+
+            </EditText>
+
+            <TextView
+                android:id="@+id/tv_kursi_donati_carlo2n"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="8dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="2dp"
+                android:layout_weight="0.45"
+                android:gravity="center"
+                android:text=" Total : Rp. 0 ,-"
+                android:textSize="18sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.45"
+                android:gravity="fill"
+                android:text="Cafe Latte" />
+
+            <EditText
+                android:id="@+id/et_lemari_donati_3_laci"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.15"
+                android:digits="0123456789."
+                android:gravity="center_horizontal"
+                android:hint="qty"
+                android:inputType="number"
+                android:textColor="@color/colorET">
+
+            </EditText>
+
+            <TextView
+                android:id="@+id/tv_lemari_donati_3_laci"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="8dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="2dp"
+                android:layout_weight="0.45"
+                android:gravity="center"
+                android:text=" Total : Rp. 0 ,-"
+                android:textSize="18sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.45"
+                android:gravity="fill"
+                android:text="Caramel Latte" />
+
+            <EditText
+
+                android:id="@+id/et_lemari_donati_doc_55_3r"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.15"
+                android:digits="0123456789."
+                android:gravity="center_horizontal"
+                android:hint="qty"
+                android:inputType="number"
+                android:textColor="@color/colorET">
+
+            </EditText>
+
+            <TextView
+                android:id="@+id/tv_lemari_donati_doc_55_3r"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="8dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="2dp"
+                android:layout_weight="0.45"
+                android:gravity="center"
+                android:text=" Total : Rp. 0 ,-"
+                android:textSize="18sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.45"
+                android:text="Hazelnut Latte" />
+
+            <EditText
+                android:id="@+id/et_lemari_donati_dd2"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.15"
+                android:digits="0123456789."
+                android:gravity="center_horizontal"
+                android:hint="qty"
+                android:inputType="number"
+                android:textColor="@color/colorET">
+
+            </EditText>
+
+            <TextView
+                android:id="@+id/tv_lemari_donati_dd2"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="8dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="2dp"
+                android:layout_weight="0.45"
+                android:gravity="center"
+                android:text=" Total : Rp. 0 ,-"
+                android:textSize="18sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.45"
+                android:text="Vannila Latte" />
+
+            <EditText
+                android:id="@+id/et_lemari_cradenza_donati_dcr"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.15"
+                android:digits="0123456789."
+                android:gravity="center_horizontal"
+                android:hint="qty"
+                android:inputType="number"
+                android:textColor="@color/colorET">
+
+            </EditText>
+
+            <TextView
+                android:id="@+id/tv_lemari_cradenza_donati_dcr"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="8dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="2dp"
+                android:layout_weight="0.45"
+                android:gravity="center"
+                android:text=" Total : Rp. 0 ,-"
+                android:textSize="18sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.45"
+                android:gravity="fill"
+                android:text="Mocca" />
+
+            <EditText
+                android:id="@+id/et_lemari_donati_doc_55"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.15"
+                android:digits="0123456789."
+                android:gravity="center_horizontal"
+                android:hint="qty"
+                android:inputType="number"
+                android:textColor="@color/colorET">
+
+            </EditText>
+
+            <TextView
+                android:id="@+id/tv_lemari_donati_doc_55"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="8dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="2dp"
+                android:layout_weight="0.45"
+                android:gravity="center"
+                android:text=" Total : Rp. 0 ,-"
+                android:textSize="18sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.45"
+                android:gravity="fill"
+                android:text="Mocca Caramel" />
+
+            <EditText
+                android:id="@+id/et_sofa_donati_rbs_3_seater"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.15"
+                android:digits="0123456789."
+                android:gravity="center_horizontal"
+                android:hint="qty"
+                android:inputType="number"
+                android:textColor="@color/colorET">
+
+            </EditText>
+
+            <TextView
+                android:id="@+id/tv_sofa_donati_rbs_3_seater"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="8dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="2dp"
+                android:layout_weight="0.45"
+                android:gravity="center"
+                android:text=" Total : Rp. 0 ,-"
+                android:textSize="18sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.45"
+                android:gravity="fill"
+                android:text="Kopi Kolonel" />
+
+            <EditText
+                android:id="@+id/et_sofa_donati_hi_beat_3_seater"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.15"
+                android:digits="0123456789."
+                android:gravity="center_horizontal"
+                android:hint="qty"
+                android:inputType="number"
+                android:textColor="@color/colorET">
+
+            </EditText>
+
+            <TextView
+                android:id="@+id/tv_sofa_donati_hi_beat_3_seater"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="8dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="2dp"
+                android:layout_weight="0.45"
+                android:gravity="center"
+                android:text=" Total : Rp. 0 ,-"
+                android:textSize="18sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.45"
+                android:gravity="fill"
+                android:text="Sofa Kantor Aveda AC 701" />
+
+            <EditText
+                android:id="@+id/et_sofa_aveda_ac_701"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.15"
+                android:digits="0123456789."
+                android:gravity="center_horizontal"
+                android:hint="qty"
+                android:inputType="number"
+                android:textColor="@color/colorET">
+
+            </EditText>
+
+            <TextView
+                android:id="@+id/tv_sofa_aveda_ac_701"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="8dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="2dp"
+                android:layout_weight="0.45"
+                android:gravity="center"
+                android:text=" Total : Rp. 0 ,-"
+                android:textSize="18sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.45"
+                android:gravity="fill"
+                android:text="Sofa Kantor Aveda AC 801 3 Seater" />
+
+            <EditText
+                android:id="@+id/et_sofa_aveda_ac_801_3_seater"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.15"
+                android:digits="0123456789."
+                android:gravity="center_horizontal"
+                android:hint="qty"
+                android:inputType="number"
+                android:textColor="@color/colorET">
+
+            </EditText>
+
+            <TextView
+                android:id="@+id/tv_sofa_aveda_ac_801_3_seater"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="8dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="2dp"
+                android:layout_weight="0.45"
+                android:gravity="center"
+                android:text=" Total : Rp. 0 ,-"
+                android:textSize="18sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.45"
+                android:gravity="fill"
+                android:text="Sofa Kantor Aveda AC 805 Ottoman 3 Seater" />
+
+            <EditText
+                android:id="@+id/et_sofa_aveda_ac_805_ottoman_3_seater"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.15"
+                android:digits="0123456789."
+                android:gravity="center_horizontal"
+                android:hint="qty"
+                android:inputType="number"
+                android:textColor="@color/colorET">
+
+            </EditText>
+
+            <TextView
+                android:id="@+id/tv_sofa_aveda_ac_805_ottoman_3_seater"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="8dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="2dp"
+                android:layout_weight="0.45"
+                android:gravity="center"
+                android:text=" Total : Rp. 0 ,-"
+                android:textSize="18sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="16dp"
+                android:layout_marginStart="16dp"
+                android:layout_weight="0.24"
+                android:text="Diskon "
+                android:textAlignment="center"
+                android:textSize="21sp" />
+
+            <EditText
+                android:id="@+id/et_diskon"
+                android:layout_width="35dp"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="4dp"
+                android:layout_marginRight="4dp"
+                android:layout_marginTop="15dp"
+                android:hint="%"
+                android:textAlignment="center" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="0.315"
+                android:text="Total Rp : "
+                android:textAlignment="center"
+                android:textSize="21sp" />
+
+            <TextView
+                android:id="@+id/tv_total_harga"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="17dp"
+                android:layout_weight="0.5"
+                android:paddingBottom="32dp"
+                android:text="0 ,-"
+                android:textSize="21sp" />
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btn_hitung"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="16dp"
+            android:layout_marginLeft="32dp"
+            android:layout_marginRight="32dp"
+            android:background="@color/buttonColor"
+            android:clickable="true"
+            android:text="hitung"
+            android:textColor="#FFFFFF"
+            android:textSize="21sp" />
+
+        <Button
+            android:id="@+id/btn_reset"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="32dp"
+            android:layout_marginLeft="32dp"
+            android:layout_marginRight="32dp"
+            android:background="@color/buttonColor"
+            android:clickable="true"
+            android:text="reset"
+            android:textColor="#FFFFFF"
+            android:textSize="21sp" />
+
+    </LinearLayout>
+
+
+</ScrollView>
